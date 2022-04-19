@@ -12,6 +12,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         app:pin_length="4"
+        app:button_size="128dp"
         android:layout_centerVertical="true"
         android:layout_centerHorizontal="true"/>
 

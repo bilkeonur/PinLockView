@@ -43,8 +43,6 @@ public class PinLockView extends LinearLayout
     {
         inflate(context, R.layout.activity_pin_lock, this);
 
-        initComponents();
-
         TypedArray typedArray = context.obtainStyledAttributes(attrs,R.styleable.PinLockView);
 
         float buttonSize = typedArray.getDimension(R.styleable.PinLockView_button_size, 64F);
@@ -53,15 +51,17 @@ public class PinLockView extends LinearLayout
 
         typedArray.recycle();
 
+        initComponents((int)buttonSize);
         initPinLength(context,pinLength);
-        //setButtonSize(dpToPx(buttonSize));
         //setButtonMargins((int)buttonMargin);
     }
 
-    private void initComponents()
+    private void initComponents(int buttonSize)
     {
         viewContainer = findViewById(R.id.linearLayout1);
         pinContainer = findViewById(R.id.linearLayout2);
+
+        params = new LayoutParams(buttonSize, buttonSize);
 
         pinButtons.add(findViewById(R.id.imageButton1));
         pinButtons.add(findViewById(R.id.imageButton2));
@@ -78,13 +78,9 @@ public class PinLockView extends LinearLayout
 
         for(ImageButton pinButton : pinButtons)
         {
+            //pinButton.setLayoutParams(params);
             pinButton.setOnClickListener(this::pinButtonClickListener);
         }
-    }
-
-    public void setButtonSize(int size)
-    {
-        params = new LayoutParams(size, size);
     }
 
     public void setButtonMargins(int margin)
