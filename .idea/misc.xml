@@ -6,6 +6,7 @@
         <entry key="app/src/main/res/layout/activity_main.xml" value="0.17552083333333332" />
         <entry key="pinlockview/src/main/res/drawable/ic_dot_empty.xml" value="0.1" />
         <entry key="pinlockview/src/main/res/drawable/ic_dot_fill.xml" value="0.1" />
+        <entry key="pinlockview/src/main/res/drawable/ic_launcher_background.xml" value="0.1" />
         <entry key="pinlockview/src/main/res/drawable/ic_nm_delete.xml" value="0.1" />
         <entry key="pinlockview/src/main/res/drawable/ic_nm_eight.xml" value="0.1" />
         <entry key="pinlockview/src/main/res/drawable/ic_nm_five.xml" value="0.1" />

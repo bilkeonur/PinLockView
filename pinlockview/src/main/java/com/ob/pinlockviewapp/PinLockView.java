@@ -4,6 +4,7 @@ import android.content.Context;
 import android.content.res.TypedArray;
 import android.util.AttributeSet;
 import android.view.View;
+import android.view.ViewGroup;
 import android.widget.ImageButton;
 import android.widget.ImageView;
 import android.widget.LinearLayout;
@@ -100,9 +101,11 @@ public class PinLockView extends LinearLayout
     {
         for(int i=0; i<pinLength; i++)
         {
+            LayoutParams layoutParams = new LayoutParams(48, 48);
             ImageView pinImage = new ImageView(context);
             pinImage.setImageResource(R.drawable.ic_dot_empty);
-            pinImage.setLayoutParams(new LayoutParams(96, 96));
+            layoutParams.setMargins(5,5,5,5);
+            pinImage.setLayoutParams(layoutParams);
             pinImages.add(pinImage);
             pinContainer.addView(pinImage);
         }
@@ -117,19 +120,31 @@ public class PinLockView extends LinearLayout
     {
         int btnId = view.getId();
 
-        if(curDigit!=pinLength-1)
+        if(btnId!=R.id.imageButton12)
         {
-            curDigit++;
-            pinLockListener.onPinEnter();
+            if(curDigit!=pinLength)
+            {
+                pinImages.get(curDigit).setImageResource(R.drawable.ic_dot_fill);
+                pinLockListener.onPinEnter();
+                curDigit++;
+            }
+            else
+            {
+                pinLockListener.onPinComplete();
+            }
         }
         else
         {
-            pinLockListener.onComplete();
-        }
-
-        if(btnId == R.id.imageButton1)
-        {
-
+            if(curDigit!=0)
+            {
+                pinImages.get(curDigit-1).setImageResource(R.drawable.ic_dot_empty);
+                pinLockListener.onPinDelete();
+                curDigit--;
+            }
+            else
+            {
+                pinLockListener.onPinEmpty();
+            }
         }
     }
 }

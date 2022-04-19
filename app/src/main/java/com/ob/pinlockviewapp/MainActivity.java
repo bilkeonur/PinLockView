@@ -26,19 +26,19 @@ public class MainActivity extends AppCompatActivity
             }
 
             @Override
-            public void onComplete()
+            public void onPinComplete()
             {
                 Log.d("ONR","Pin Complete");
             }
 
             @Override
-            public void onDelete()
+            public void onPinDelete()
             {
                 Log.d("ONR","Pin Delete");
             }
 
             @Override
-            public void onEmpty()
+            public void onPinEmpty()
             {
                 Log.d("ONR","Pin Empty");
             }

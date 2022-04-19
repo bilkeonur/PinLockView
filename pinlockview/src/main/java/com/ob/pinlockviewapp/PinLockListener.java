@@ -3,7 +3,7 @@ package com.ob.pinlockviewapp;
 public interface PinLockListener
 {
     void onPinEnter();
-    void onComplete();
-    void onDelete();
-    void onEmpty();
+    void onPinComplete();
+    void onPinDelete();
+    void onPinEmpty();
 }
