@@ -1,0 +1,10 @@
+<vector
+    android:height="64dp"
+    android:viewportHeight="256"
+    android:viewportWidth="256"
+    android:width="64dp"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <path
+        android:fillColor="@color/pin_lock_view_color"
+        android:pathData="M128,28A100,100 0,1 0,228 128,100.113 100.113,0 0,0 128,28ZM128,220a92,92 0,1 1,92 -92A92.105,92.105 0,0 1,128 220ZM136,84v92a4,4 0,0 1,-8 0L128,91.473l-17.782,11.85a4,4 0,0 1,-4.436 -6.658l24,-15.993A4,4 0,0 1,136 84Z"/>
+</vector>
