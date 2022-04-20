@@ -1,5 +1,5 @@
 # PinLockView
-Customizable Pin Lock View
+Customizable Pin Lock View (Onur BiLKE)
 
 ![PinLockView](https://github.com/bilkeonur/PinLockView/blob/master/screens/screen.png)
 
@@ -82,6 +82,22 @@ Reference the view in code, set a new pin and add a listener to it.
         }
     });
   ```
+### Step 3
+
+Change Keypad Color
+Add the code below in app/src/main/res/values/colors.xml to change the keypad color 
+
+```<color name="pin_lock_view_color">#7A7A7A</color>
+```
+
+### Step 4
+
+```xml
+app:button_size="96dp"		// Change the button size
+app:pin_length="6"		// Change the pin length (4-7)
+app:border_enabled="true"	// Add a border to keypad
+```
+  
 # License
 
 ```
