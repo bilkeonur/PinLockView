@@ -92,7 +92,7 @@ Add the code below in app/src/main/res/values/colors.xml to change the keypad co
 <color name="pin_lock_view_color">#7A7A7A</color>
 ```
 
-### Step 4
+### Step 4 (Features)
 
 ```xml
 app:button_size="96dp"		// Change the button size Default:64
