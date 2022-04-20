@@ -26,8 +26,8 @@ dependencies {
 Place the view in your XML layout file.
 
 ```<com.ob.pinlockviewapp.PinLockView
-        android:id="@+id/pinLockView1"
-        android:layout_width="wrap_content"
+   	android:id="@+id/pinLockView1"
+     	android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_centerInParent="true"
         app:button_size="96dp"
