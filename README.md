@@ -43,7 +43,7 @@ Reference the view in code, set a new pin and add a listener to it.
 ```java
     PinLockView pinLockView = findViewById(R.id.pinLockView1);
     
-    pinLockView.setPinCode("123456");
+    pinLockView.setPinCode("123456"); //Default -> 4 Digit Pin 1111, 5 Digit Pin 11111, 6 Digit Pin 111111
     
     pinLockView.setPinLockListener(new PinLockListener()
     {
@@ -95,13 +95,10 @@ Add the code below in app/src/main/res/values/colors.xml to change the keypad co
 ### Step 4
 
 ```xml
-app:button_size="96dp"		// Change the button size
-app:pin_length="6"		// Change the pin length (4-7)
-app:border_enabled="true"	// Add a border to keypad
+app:button_size="96dp"		// Change the button size Default:64
+app:pin_length="6"		// Change the pin length (4-7) Default:4
+app:border_enabled="true"	// Add a border to keypad Default:false
 ```
-# Contribution
-
-This library is quite exhaustive and offers a lot of customization options. If you find a bug or would like to improve any aspect of it, feel free to contribute with pull requests.
 
 # About The Author
 
