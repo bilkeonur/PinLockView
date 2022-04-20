@@ -85,7 +85,7 @@ Reference the view in code, set a new pin and add a listener to it.
   ```
 ### Step 3
 
-Change Keypad Color
+#### Change Keypad Color
 Add the code below in app/src/main/res/values/colors.xml to change the keypad color 
 
 ```xml
