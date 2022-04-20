@@ -1,6 +1,9 @@
 # PinLockView
 Customizable Pin Lock View
 
+# Usage
+![PinLockView](https://github.com/bilkeonur/PinLockView/blob/master/screens/screen.png)
+
 ### Gradle
 
 Import to android studio:
