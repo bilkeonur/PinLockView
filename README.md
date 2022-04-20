@@ -1,5 +1,5 @@
 # PinLockView
-Customizable Pin Lock View
+Customizable Android Pin Lock View
 
 ![PinLockView](https://github.com/bilkeonur/PinLockView/blob/master/screens/screen.png)
 
