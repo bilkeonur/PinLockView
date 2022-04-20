@@ -1,7 +1,7 @@
 <resources>
     <declare-styleable name="PinLockView">
         <attr name="button_size" format="dimension" />
-        <attr name="button_margin" format="dimension" />
         <attr name="pin_length" format="integer" />
+        <attr name="border_enabled" format="boolean" />
     </declare-styleable>
 </resources>

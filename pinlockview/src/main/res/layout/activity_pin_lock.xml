@@ -7,14 +7,16 @@
     android:layout_width="wrap_content"
     android:layout_height="wrap_content"
     android:orientation="vertical"
-    tools:context=".PinLockView">
+    tools:context=".PinLockView"
+    android:padding="20dp">
 
     <LinearLayout
         android:id="@+id/linearLayout2"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="horizontal"
-        android:gravity="center"/>
+        android:gravity="center"
+        android:padding="10dp"/>
 
     <LinearLayout
         android:id="@+id/linearLayout3"
@@ -29,7 +31,8 @@
             android:layout_height="64dp"
             android:background="?android:attr/selectableItemBackground"
             android:src="@drawable/ic_nm_one"
-            android:layout_margin="5dp"/>
+            android:layout_margin="5dp"
+            android:scaleType="fitCenter"/>
 
         <ImageButton
             android:id="@+id/imageButton2"
@@ -37,7 +40,8 @@
             android:layout_height="64dp"
             android:background="?android:attr/selectableItemBackground"
             android:src="@drawable/ic_nm_two"
-            android:layout_margin="5dp"/>
+            android:layout_margin="5dp"
+            android:scaleType="fitCenter"/>
 
         <ImageButton
             android:id="@+id/imageButton3"
@@ -45,7 +49,8 @@
             android:layout_height="64dp"
             android:background="?android:attr/selectableItemBackground"
             android:src="@drawable/ic_nm_three"
-            android:layout_margin="5dp"/>
+            android:layout_margin="5dp"
+            android:scaleType="fitCenter"/>
 
     </LinearLayout>
 
@@ -62,7 +67,8 @@
             android:layout_height="64dp"
             android:background="?android:attr/selectableItemBackground"
             android:src="@drawable/ic_nm_four"
-            android:layout_margin="5dp"/>
+            android:layout_margin="5dp"
+            android:scaleType="fitCenter"/>
 
         <ImageButton
             android:id="@+id/imageButton5"
@@ -70,7 +76,8 @@
             android:layout_height="64dp"
             android:background="?android:attr/selectableItemBackground"
             android:src="@drawable/ic_nm_five"
-            android:layout_margin="5dp"/>
+            android:layout_margin="5dp"
+            android:scaleType="fitCenter"/>
 
         <ImageButton
             android:id="@+id/imageButton6"
@@ -78,7 +85,8 @@
             android:layout_height="64dp"
             android:background="?android:attr/selectableItemBackground"
             android:src="@drawable/ic_nm_six"
-            android:layout_margin="5dp"/>
+            android:layout_margin="5dp"
+            android:scaleType="fitCenter"/>
 
     </LinearLayout>
 
@@ -95,7 +103,8 @@
             android:layout_height="64dp"
             android:background="?android:attr/selectableItemBackground"
             android:src="@drawable/ic_nm_seven"
-            android:layout_margin="5dp"/>
+            android:layout_margin="5dp"
+            android:scaleType="fitCenter"/>
 
         <ImageButton
             android:id="@+id/imageButton8"
@@ -103,7 +112,8 @@
             android:layout_height="64dp"
             android:background="?android:attr/selectableItemBackground"
             android:src="@drawable/ic_nm_eight"
-            android:layout_margin="5dp"/>
+            android:layout_margin="5dp"
+            android:scaleType="fitCenter"/>
 
         <ImageButton
             android:id="@+id/imageButton9"
@@ -111,7 +121,8 @@
             android:layout_height="64dp"
             android:background="?android:attr/selectableItemBackground"
             android:src="@drawable/ic_nm_nine"
-            android:layout_margin="5dp"/>
+            android:layout_margin="5dp"
+            android:scaleType="fitCenter"/>
 
     </LinearLayout>
 
@@ -127,7 +138,8 @@
             android:layout_width="64dp"
             android:layout_height="64dp"
             android:background="@null"
-            android:layout_margin="5dp"/>
+            android:layout_margin="5dp"
+            android:scaleType="fitCenter"/>
 
         <ImageButton
             android:id="@+id/imageButton11"
@@ -135,7 +147,8 @@
             android:layout_height="64dp"
             android:background="?android:attr/selectableItemBackground"
             android:src="@drawable/ic_nm_zero"
-            android:layout_margin="5dp"/>
+            android:layout_margin="5dp"
+            android:scaleType="fitCenter"/>
 
         <ImageButton
             android:id="@+id/imageButton12"
@@ -143,7 +156,8 @@
             android:layout_height="64dp"
             android:background="?android:attr/selectableItemBackground"
             android:src="@drawable/ic_nm_delete"
-            android:layout_margin="5dp"/>
+            android:layout_margin="5dp"
+            android:scaleType="fitCenter"/>
 
     </LinearLayout>
 

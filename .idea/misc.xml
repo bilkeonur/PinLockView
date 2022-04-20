@@ -4,6 +4,9 @@
     <option name="filePathToZoomLevelMap">
       <map>
         <entry key="app/src/main/res/layout/activity_main.xml" value="0.17552083333333332" />
+        <entry key="pinlockview/src/main/res/drawable-v24/layout_border.xml" value="0.109" />
+        <entry key="pinlockview/src/main/res/drawable/ic_arrow_go_back_svgrepo_com.xml" value="0.109" />
+        <entry key="pinlockview/src/main/res/drawable/ic_back_svgrepo_com__1_.xml" value="0.109" />
         <entry key="pinlockview/src/main/res/drawable/ic_dot_empty.xml" value="0.1" />
         <entry key="pinlockview/src/main/res/drawable/ic_dot_fill.xml" value="0.1" />
         <entry key="pinlockview/src/main/res/drawable/ic_launcher_background.xml" value="0.1" />
@@ -15,6 +18,11 @@
         <entry key="pinlockview/src/main/res/drawable/ic_nm_one.xml" value="0.1" />
         <entry key="pinlockview/src/main/res/drawable/ic_nm_seven.xml" value="0.1" />
         <entry key="pinlockview/src/main/res/drawable/ic_nm_six.xml" value="0.1" />
+        <entry key="pinlockview/src/main/res/drawable/ic_nm_three.xml" value="0.109" />
+        <entry key="pinlockview/src/main/res/drawable/ic_nm_two.xml" value="0.109" />
+        <entry key="pinlockview/src/main/res/drawable/ic_nm_zero.xml" value="0.109" />
+        <entry key="pinlockview/src/main/res/drawable/ic_previous_back_svgrepo_com.xml" value="0.109" />
+        <entry key="pinlockview/src/main/res/drawable/layout_border.xml" value="0.109" />
         <entry key="pinlockview/src/main/res/layout/activity_pin_lock.xml" value="0.33958333333333335" />
       </map>
     </option>

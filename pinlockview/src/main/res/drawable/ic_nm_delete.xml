@@ -1,10 +1,16 @@
-<vector
-    android:height="32dp"
-    android:viewportHeight="490"
-    android:viewportWidth="490"
-    android:width="32dp"
-    xmlns:android="http://schemas.android.com/apk/res/android">
-    <path
-        android:fillColor="@color/pin_lock_view_color"
-        android:pathData="M112.4,118.6L0,245l112.4,126.4H490V118.6H112.4zM373.7,172.7L301.4,245l72.1,72.4c3.8,3.9 3.8,10.1 0,14l0,0c-3.9,3.9 -10.2,3.9 -14,0L287.4,259l-72,72c-3.7,3.7 -9.8,4.2 -13.8,0.7c-4.3,-3.8 -4.5,-10.4 -0.5,-14.5l72.3,-72.3l-72.1,-72.1c-3.9,-3.9 -4.1,-10.6 -0.1,-14.4c3.9,-3.7 10,-3.7 13.8,0.2l72.3,72.3l72.1,-72.1c3.9,-3.9 10.6,-4.1 14.4,-0.1C377.6,162.7 377.6,168.8 373.7,172.7z"/>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="256dp"
+    android:height="256dp"
+    android:viewportWidth="256"
+    android:viewportHeight="256">
+  <path
+      android:fillColor="@color/pin_lock_view_color"
+      android:strokeWidth="1"
+      android:pathData="m96.515,166.734c4.598,5.011 11.159,7.904 17.953,7.904l56.028,0c11.417,0 20.717,-9.299 20.717,-20.717l0,-51.843c0,-11.417 -9.299,-20.717 -20.717,-20.717l-56.028,0c-6.819,0 -13.355,2.867 -17.953,7.904l-28.879,31.437c-3.797,4.159 -3.797,10.41 0,14.569l28.879,31.463zM72.311,124.991l28.879,-31.463c3.41,-3.72 8.266,-5.838 13.303,-5.838l56.028,0c7.93,0 14.388,6.458 14.388,14.388l0,51.818c0,7.93 -6.458,14.388 -14.388,14.388l-56.054,0c-5.037,0 -9.893,-2.118 -13.303,-5.838l-28.854,-31.463c-1.576,-1.705 -1.576,-4.288 0,-5.993z"
+      android:strokeColor="@color/pin_lock_view_color"/>
+  <path
+      android:fillColor="@color/pin_lock_view_color"
+      android:strokeWidth="1"
+      android:pathData="m123.018,144.803c0.62,0.62 1.421,0.93 2.247,0.93s1.627,-0.31 2.247,-0.93l12.347,-12.347l12.347,12.347c0.62,0.62 1.421,0.93 2.247,0.93s1.627,-0.31 2.247,-0.93c1.24,-1.24 1.24,-3.229 0,-4.469l-12.373,-12.347l12.347,-12.347c1.24,-1.24 1.24,-3.229 0,-4.469s-3.229,-1.24 -4.469,0l-12.347,12.347l-12.347,-12.347c-1.24,-1.24 -3.229,-1.24 -4.469,0s-1.24,3.229 0,4.469l12.347,12.347l-12.347,12.347c-1.24,1.24 -1.24,3.229 -0.026,4.469z"
+      android:strokeColor="@color/pin_lock_view_color"/>
 </vector>
