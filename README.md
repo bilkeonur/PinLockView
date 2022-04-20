@@ -1,5 +1,5 @@
 # PinLockView
-Customizable Pin Lock View (Onur BiLKE)
+Customizable Pin Lock View
 
 ![PinLockView](https://github.com/bilkeonur/PinLockView/blob/master/screens/screen.png)
 
@@ -97,7 +97,18 @@ app:button_size="96dp"		// Change the button size
 app:pin_length="6"		// Change the pin length (4-7)
 app:border_enabled="true"	// Add a border to keypad
 ```
-  
+# Contribution
+
+This library is quite exhaustive and offers a lot of customization options. If you find a bug or would like to improve any aspect of it, feel free to contribute with pull requests.
+
+# About The Author
+
+### Onur BiLKE
+
+Android & IOS & Backend Developer.
+
+<a href="https://www.linkedin.com/in/onur-bilke-55b04275/"><img src="https://github.com/aritraroy/social-icons/blob/master/linkedin-icon.png?raw=true" width="60"></a>
+
 # License
 
 ```
