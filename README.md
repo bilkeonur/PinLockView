@@ -25,14 +25,15 @@ dependencies {
 
 Place the view in your XML layout file.
 
-```<com.ob.pinlockviewapp.PinLockView
-   	android:id="@+id/pinLockView1"
-     	android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_centerInParent="true"
-        app:button_size="96dp"
-        app:pin_length="6"
-        app:border_enabled="true"/>
+```xml
+<com.ob.pinlockviewapp.PinLockView
+     android:id="@+id/pinLockView1"
+     android:layout_width="wrap_content"
+     android:layout_height="wrap_content"
+     android:layout_centerInParent="true"
+     app:button_size="96dp"
+     app:pin_length="6"
+     app:border_enabled="true"/>
 ```
 
 ### Step 2
@@ -87,7 +88,8 @@ Reference the view in code, set a new pin and add a listener to it.
 Change Keypad Color
 Add the code below in app/src/main/res/values/colors.xml to change the keypad color 
 
-```<color name="pin_lock_view_color">#7A7A7A</color>
+```xml
+<color name="pin_lock_view_color">#7A7A7A</color>
 ```
 
 ### Step 4
