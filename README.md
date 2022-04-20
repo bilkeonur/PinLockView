@@ -104,8 +104,8 @@ app:border_enabled="true"	// Add a border to keypad Default:false
 
 ### Onur BiLKE
 
-Computer Engineer
-Android & IOS & Backend Developer && Embedded System Designer
+#### Computer Engineer
+#### Android & IOS & Backend Developer && Embedded System Designer
 
 <a href="https://www.linkedin.com/in/onur-bilke-55b04275/"><img src="https://github.com/aritraroy/social-icons/blob/master/linkedin-icon.png?raw=true" width="60"></a>
 
