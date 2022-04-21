@@ -15,7 +15,7 @@ allprojects {
 }
 
 dependencies {
-	compile 'com.github.bilkeonur:PinLockView:1.0.0'
+	implementation 'com.github.bilkeonur:PinLockView:1.0.0'
 }
 ```
 
